@@ -3,22 +3,22 @@
 class Dog 
   def initialize(name, bark)
     @name = name
-    # @bark = bark 
+    @bark = bark 
   end
   
-  def name=(name)
-    @name = name
-  end 
-  
-  # def bark=(bark)
-  #   @bark = bark 
+  # def name=(name)
+  #   @name = name
   # end 
+  
+  # # def bark=(bark)
+  # #   @bark = bark 
+  # # end 
 
-  def name
-    @name
-  end
+  # def name
+  #   @name
+  # end
 
-   def bark 
-    puts "woof!"
-  end 
+  # def bark 
+  #   puts "woof!"
+  # end 
 end 
